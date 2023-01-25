@@ -7,12 +7,19 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_scan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scan"
         android:layout_centerInParent="true"
-        android:id="@+id/btn_scan"
-        />
+        android:text="Scan" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginBottom="-85dp"
+        android:text="Connect" />
 
     <TextView
         android:id="@+id/textView"
