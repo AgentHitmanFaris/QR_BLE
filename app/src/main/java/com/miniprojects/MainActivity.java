@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         {
             scanCode();
         });
+
     }
 
     private void scanCode()
